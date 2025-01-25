@@ -10,5 +10,11 @@ season='winter'
 
  }
  else{
-    
+
  }
+ //3.array declare,index,length,push,pop
+ const numbers=[23,345,56,56,78];
+ numbers.pop()
+ numbers.push(5,6)
+const l= numbers.length
+console.log(l)
