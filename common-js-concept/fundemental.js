@@ -18,3 +18,14 @@ season='winter'
  numbers.push(5,6)
 const l= numbers.length
 console.log(l)
+//4.for loop
+for(let i=0;i<numbers.length;i++){
+    const num=numbers[i]
+    console.log(num)
+}
+//5.function
+const mul=(p,q)=>{
+    return p*q
+}
+const output=mul(2,5)
+console.log(output)
