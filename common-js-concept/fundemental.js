@@ -29,3 +29,11 @@ const mul=(p,q)=>{
 }
 const output=mul(2,5)
 console.log(output)
+//6.object
+//3 way to access proparty
+const student={
+    name:"jahid",
+    age:23,
+    like:['programming','developer']
+}
+console.log(student.like)
