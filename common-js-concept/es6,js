@@ -11,7 +11,11 @@ const number = [1, 22, 33, 44, 56];
 
 // }
 //spread operator
-const newNumber=[...number]
-newNumber.push(1,2,3,4,5)
-console.log(newNumber)
-//
+const firstArray = [1, 2, 3, 4, 5];
+
+const newArray = [...firstArray];
+
+newArray.push(6);
+console.log(firstArray);
+
+console.log(newArray);
