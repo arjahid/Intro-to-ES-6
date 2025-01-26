@@ -1,0 +1,8 @@
+const number=[1,22,33,44,56];
+const student={
+    name:'jahid',
+    age:23,
+    movied:['king khan','goriber vai']
+}
+const about=`my name is${student.name} age of ${student.age} has number${number[2] like movie${student.movied[0]} }`
+console.log(about)
