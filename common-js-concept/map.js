@@ -8,8 +8,13 @@ const products=[
     {name:'phone',price:3000,brand:"apple",color:"purple"}
 ]
 //map return something
-// const price=products.map(product=>product.price)
-//  const brands=products.map(p=>p.brand)
-//  console.log(brands)
+const price=products.map(product=>product.price)
+ const brands=products.map(p=>p.brand)
+ console.log(brands)
  //forEach don't return
  products.forEach(p=>console.log(p.color));
+
+ //filter
+ const cheap=products.filter(p=>p.price<500);
+ console.log(cheap)
+ //find(if match it will give first one)
