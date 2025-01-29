@@ -1,4 +1,5 @@
 //^ frist check is there any data in local storage
+//!json a data string hisebe take,tai amar data parse kore felbo json.parse diye
 const getStoredCart=()=>{
     const storedCart=localStorage.getItem('cart')
     if(storedCart){
